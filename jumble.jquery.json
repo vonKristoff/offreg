@@ -1,0 +1,28 @@
+{
+    "name": "jumble",
+    "title": "JUMBLE (..up the colours of your header tags, nicely)",
+    "description": "Welcome to the jumble - A jQuery plugin that jumbles up the lightness/satuation and colours of your text headers/whatevers, and can also animate them (which is mobile safe).",
+    "keywords": [
+        "css",
+        "jquery",
+        "effect",
+        "text"
+    ],
+    "version": "1.0.2",
+    "author": {
+        "name": "vonKristoff",
+        "url": "http://atomicircus.org"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "homepage": "http://bite-software.co.uk/jumble",
+    "docs": "https://github.com/vonKristoff/jumble",
+    "download": "https://github.com/vonKristoff/jumble/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
