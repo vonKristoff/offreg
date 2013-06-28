@@ -1,5 +1,5 @@
-OFFREG
-======
+OFF|REG
+=======
 
 Make Like Print - A jQuery plugin that uses canvas to create a 'screen print' offset effect on an image, by altering the pixel data. 
 
