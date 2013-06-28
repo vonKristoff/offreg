@@ -1,29 +1,27 @@
-JUMBLE
+OFFREG
 ======
 
-A jQuery plugin that jumbles up the colours of your text headers, and can also animate them.
+Make Like Print - A jQuery plugin that uses canvas to create a 'screen print' offset effect on an image, by altering the pixel data. 
 
-<a href='http://bite-software.co.uk/jumble'>Plugin Site</a>
+<a href='http://bite-software.co.uk/offreg'>Plugin Site</a>
 
 BASIC USAGE:
 ```javascript
-$('h1').jumble(
-	colour_1,
-	colour_2,
-	brightness,
-	satuation,
-	time
+$('.container').offreg(
+	source,
+	transparent,
+	rotation,
+	offset
 );
 ```
 <h1>config options:</h1>
 <ul>
-<li><b>colour 1:</b> rgb array-> <b>[255,255,55]</b></li>
-<li><b>colour 2:</b> rgb array-> <b>[255,0,155]</b> optional: (if singular colour then declare false)</li>
-<li><b>brightness :</b> boolean-> <b>false</b></li>
-<li><b>satuation</b> boolean-> <b>true</b></li>
-<li><b>time</b> mileseconds-> <b>1000</b></li>
+<li><b>source</b> object | string <b>'img/image.png'</b></li>
+<li><b>transparent</b> boolean <b>true</b> Do you wish keep the transparency of source image? Nb. If yes, then a png is created, & that has a greater kb weight</li>
+<li><b>rotation</b> float <b>0.5</b> 0 is none, 1 is max.</li>
+<li><b>offset</b> float <b>0.5</b> x and y offset strength (Max:1) Optional: if no value is given, then the rotation decimal is used.</li>
 </ul>
 <h1>usage example</h1>
 ```javascript
-$('h1').jumble([180,160,90],[230,20,130],true.false,false,200);
+$('.container').offset(img,true,0.7);
 ```
