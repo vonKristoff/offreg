@@ -67,7 +67,12 @@ Plugin.prototype.buildLayerData = function(){
 		degMax = 2 * this.rot,
 		offMax = 10 * this.axis;
 	
-	
+	if(degMax < 0.1){
+		degMax = 0.1;
+	}
+	if(offMax < 0.1){
+		offMax = 0.1;
+	}
 
 	for(var i=0;i<3;i++){		// construct postioning of offsets
 		
@@ -157,7 +162,7 @@ Plugin.prototype.deploy = function(dst){
 
 	if(!this.png){ // dirty jpeg hack -> was creating a black background -> line width test on smaller images
 		this.ctx.strokeStyle=this.bg;
-		this.ctx.lineWidth=15;
+		this.ctx.lineWidth=20; // needs to become dynamic based on source dimensions
 		this.ctx.strokeRect(0,-0,this.w,this.h);
 	}
         

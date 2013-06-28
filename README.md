@@ -25,3 +25,4 @@ $('.container').offreg(
 ```javascript
 $('.container').offset(img,true,0.7);
 ```
+<p>Nb. Renders poorly in Chrome. But all good in other modern browsers.</p>
