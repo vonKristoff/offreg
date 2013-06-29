@@ -26,3 +26,6 @@ $('.container').offreg(
 $('.container').offset(img,true,0.7);
 ```
 <p>Nb. Renders poorly in Chrome. But all good in other modern browsers.</p>
+| Option                          | Description           	 |
+| ------------------------------- |:------------------------ |
+| top [ Number: 0 ]               | Spot top position        |
