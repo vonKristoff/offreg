@@ -15,6 +15,13 @@ $('.container').offreg(
 );
 ```
 <h1>config options:</h1>
+
+| Option             | data type      | values           | Nb.     |
+| ------------------ |:---------------|------------------|---------|
+| source  			 | string         | 'img/image.jpg'  |         |
+| ------------------ |:---------------|------------------|---------|
+| transparent        | boolean        | true / false     | Use if your image is a png with transparency that you wish to preserve |
+
 <ul>
 <li><b>source</b> object | string <b>'img/image.png'</b></li>
 <li><b>transparent</b> boolean <b>true</b> Do you wish keep the transparency of source image? Nb. If yes, then a png is created, & that has a greater kb weight</li>
@@ -26,6 +33,3 @@ $('.container').offreg(
 $('.container').offset(img,true,0.7);
 ```
 <p>Nb. Renders poorly in Chrome. But all good in other modern browsers.</p>
-| Option             | Description           	|
-| ------------------ |:------------------------ |
-| top [ Number: 0 ]  | Spot top position        |
