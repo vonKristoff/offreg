@@ -16,11 +16,11 @@ $('.container').offreg(
 ```
 <h1>config options:</h1>
 
-| Option             | data type      | values           | Nb.     |
-| ------------------ |:---------------|------------------|---------|
-| source  			 | string         | 'img/image.jpg'  |         |
-| transparent        | boolean        | true / false     | Use if your image is a png with transparency that you wish to preserve |
-
+| Option             | data type      | values               | Nb.     |
+| ------------------ |:---------------|----------------------|---------|
+| source  			 | string         | 'img/image.jpg'      |         |
+| transparent        | boolean        | true / false         | Use if your image is a png with transparency that you wish to preserve |
+| rotation 			 | float          | decimal: min:0 max:1 |         |
 <ul>
 <li><b>source</b> object | string <b>'img/image.png'</b></li>
 <li><b>transparent</b> boolean <b>true</b> Do you wish keep the transparency of source image? Nb. If yes, then a png is created, & that has a greater kb weight</li>
