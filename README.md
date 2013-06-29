@@ -19,7 +19,6 @@ $('.container').offreg(
 | Option             | data type      | values           | Nb.     |
 | ------------------ |:---------------|------------------|---------|
 | source  			 | string         | 'img/image.jpg'  |         |
-| ------------------ |:---------------|------------------|---------|
 | transparent        | boolean        | true / false     | Use if your image is a png with transparency that you wish to preserve |
 
 <ul>
