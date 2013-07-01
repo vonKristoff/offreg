@@ -21,7 +21,7 @@ $('.container').offreg(
 | source  			 | string         | 'img/image.jpg'      | Yes      | any img type     									  |       
 | transparent        | boolean        | true / false         | Yes      | preserves transparency, but creates a 'heavier' png |        
 | rotation 			 | float          | 0.0 -> 1.0  	     | Yes      | rotation offset strength      					  |        
-| offset 			 | float          | 0.0 -> 1.0   	     | No       | x | y axis offset strength    					  |        
+| offset 			 | float          | 0.0 -> 1.0   	     | No       | x/y axis offset strength    					      |        
 
 <h1>usage example</h1>
 ```javascript
