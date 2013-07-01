@@ -16,17 +16,13 @@ $('.container').offreg(
 ```
 <h1>config options:</h1>
 
-| Option             | data type      | values               | Nb.     |
-| ------------------ |:---------------|----------------------|---------|
-| source  			 | string         | 'img/image.jpg'      |         |
-| transparent        | boolean        | true / false         | Use if your image is a png with transparency that you wish to preserve |
-| rotation 			 | float          | decimal: min:0 max:1 |         |
-<ul>
-<li><b>source</b> object | string <b>'img/image.png'</b></li>
-<li><b>transparent</b> boolean <b>true</b> Do you wish keep the transparency of source image? Nb. If yes, then a png is created, & that has a greater kb weight</li>
-<li><b>rotation</b> float <b>0.5</b> 0 is none, 1 is max.</li>
-<li><b>offset</b> float <b>0.5</b> x and y offset strength (Max:1) Optional: if no value is given, then the rotation decimal is used.</li>
-</ul>
+| Option             | data type      | values               | Required | Nb.                								  | 
+| ------------------ |----------------|----------------------|----------|-----------------------------------------------------|
+| source  			 | string         | 'img/image.jpg'      | Yes      | any img type     									  |       
+| transparent        | boolean        | true / false         | Yes      | preserves transparency, but creates a 'heavier' png |        
+| rotation 			 | float          | 0.0 -> 1.0  	     | Yes      | rotation offset strength      					  |        
+| offset 			 | float          | 0.0 -> 1.0   	     | No       | x | y axis offset strength    					  |        
+
 <h1>usage example</h1>
 ```javascript
 $('.container').offset(img,true,0.7);
