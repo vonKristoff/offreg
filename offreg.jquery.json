@@ -1,0 +1,31 @@
+{
+    "name": "offreg",
+    "title": "OFFREG turning your images into screen prints",
+    "description": "A jQuery plugin that uses Canvas to create a 'print' offset effect on any image source by altering the pixel data.",
+    "keywords": [
+        "canvas",
+        "jquery",
+        "effect",
+        "blendmode",
+        "javascript",
+        "image",
+        "grunge"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "vonKristoff",
+        "url": "http://atomicircus.org"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "homepage": "http://bite-software.co.uk/offreg",
+    "docs": "https://github.com/vonKristoff/offreg",
+    "download": "https://github.com/vonKristoff/offreg/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
