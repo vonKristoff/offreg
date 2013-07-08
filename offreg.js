@@ -162,7 +162,7 @@ Plugin.prototype.deploy = function(dst){
 
 	if(!this.png){ // dirty jpeg hack -> was creating a black background -> line width test on smaller images
 		this.ctx.strokeStyle=this.bg;
-		this.ctx.lineWidth=20; // needs to become dynamic based on source dimensions
+		this.ctx.lineWidth=25; // needs to become dynamic based on source dimensions
 		this.ctx.strokeRect(0,-0,this.w,this.h);
 	}
         
