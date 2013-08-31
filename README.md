@@ -25,6 +25,6 @@ $('.container').offreg(
 
 <h1>usage example</h1>
 ```javascript
-$('.container').offset(img,true,0.7);
+$('.container').offreg(img,true,0.7);
 ```
 <p>Nb. Renders poorly in Chrome. But all good in other modern browsers.</p>
